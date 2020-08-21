@@ -130,3 +130,16 @@ section{
     font-size: 40px;
     padding-left: 2px;
 }
+
+.footer{
+    border-top: var(--text-color) solid 1px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
