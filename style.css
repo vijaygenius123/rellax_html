@@ -103,10 +103,30 @@ section{
     
 }
 
-.section-stream .content > div{
+.section-stream .content > div, .section-grid > div{
     background: rgba(0,0,0,0.4);
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
     
+}
+
+.section-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    text-align: center;
+}
+
+.section-grid i{
+    color: var(--secondary-color)
+}
+
+.section-grid p{
+    color: var(--text-color);
+}
+
+.section-grid .dot{
+    font-size: 40px;
+    padding-left: 2px;
 }
